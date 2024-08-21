@@ -1,0 +1,117 @@
+.progress-circle {
+    width: 150px;
+    height: 75px;
+    background: conic-gradient(green calc(var(--progress) * 1%), lightgray 0);
+    border-radius: 75px 75px 0 0;
+    transform: rotate(-90deg);
+    margin-top: 20px;
+}
+/* Container styling */
+.container {
+    width: 360px;
+    margin: 20px auto;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+    border-radius: 15px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+/* Header */
+.header {
+    background-color: #002e6d;
+    color: #fff;
+    padding: 15px;
+    border-radius: 10px 10px 0 0;
+    text-align: center;
+}
+
+.header h2 {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+/* Profile section */
+.profile-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.patient-details h3 {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.patient-details p {
+    margin: 5px 0;
+    color: #666;
+    font-size: 0.9em;
+}
+
+.profile-icon img {
+    border-radius: 50%;
+}
+
+/* Goal section */
+.goal-section {
+    background-color: #002e6d;
+    color: #fff;
+    padding: 15px 10px;
+    border-radius: 15px;
+    margin: 20px 0;
+    text-align: center;
+    position: relative;
+}
+
+.goal-text {
+    margin-bottom: 10px;
+}
+
+.goal-progress {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.progress-circle {
+    width: 80px;
+    height: 80px;
+    background: conic-gradient(#f8b133 0% 40%, #e6e6e6 40% 100%);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.progress-text {
+    font-size: 1.2em;
+    color: #fff;
+}
+
+.goal-info {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.goal-item {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    font-size: 0.8em;
+}
+
+.goal-label {
+    color: #fff;
+}
+
+/* Contact details */
+.contact-details {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
